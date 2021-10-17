@@ -75,7 +75,7 @@ class LinkedList {
 
   // O(n)
   get(index) {
-    if (typeof index !== 'number') throw new Error(`Invalid input: The 'index' should be a number`);
+    if (typeof index !== 'number' || !Number.isInteger(index)) throw new Error(`Invalid input: The 'index' should be an Integer number`);
     if (index < 0 || index >= this.length) return undefined;
 
     let node = this.head;
@@ -98,7 +98,7 @@ class LinkedList {
 
   // O(n)
   insert(index, value) {
-    if (typeof index !== 'number') throw new Error(`Invalid input: The 'index' should be a number`);
+    if (typeof index !== 'number' || !Number.isInteger(index)) throw new Error(`Invalid input: The 'index' should be an Integer number`);
     if (index < 0 || index > this.length) return false;
     
     if (index === 0) {
@@ -119,7 +119,7 @@ class LinkedList {
   
   // O(n)
   remove(index) {
-    if (typeof index !== 'number') throw new Error(`Invalid input: The 'index' should be a number`);
+    if (typeof index !== 'number' || !Number.isInteger(index)) throw new Error(`Invalid input: The 'index' should be an Integer number`);
     if (index < 0 || index >= this.length) return undefined;
     
     if (index === 0) return this.shift();
