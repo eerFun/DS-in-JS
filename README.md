@@ -2,8 +2,8 @@
 My Data Structure Notes in JS
 
 ## Table of Contents
- - [LinkedList](https://github.com/eerFun/DS-in-JS/blob/main/01%20LinkedList.js)
- - [DoublyLinkedList](https://github.com/eerFun/DS-in-JS/blob/main/02%20DoublyLinkedList.js)
+ - [Linked List](https://github.com/eerFun/DS-in-JS/blob/main/01%20LinkedList.js)
+ - [Doubly Linked List](https://github.com/eerFun/DS-in-JS/blob/main/02%20DoublyLinkedList.js)
 
 ## Resources
  - https://www.bigocheatsheet.com/
