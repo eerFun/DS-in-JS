@@ -6,6 +6,7 @@ My Data Structure Notes in JS
  - [Doubly Linked List](https://github.com/eerFun/DS-in-JS/blob/main/02%20DoublyLinkedList.js)
  - [Stack](https://github.com/eerFun/DS-in-JS/blob/main/03%20Stack.js)
  - [Queue](https://github.com/eerFun/DS-in-JS/blob/main/04%20Queue.js)
+ - [Binary Search Tree](https://github.com/eerFun/DS-in-JS/blob/main/05%20BinarySearchTree.js)
 
 ## Resources
  - https://www.bigocheatsheet.com/
