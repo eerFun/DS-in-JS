@@ -8,6 +8,7 @@ My Data Structure Notes in JS
  - [Queue](https://github.com/eerFun/DS-in-JS/blob/main/04%20Queue.js)
  - [Binary Search Tree](https://github.com/eerFun/DS-in-JS/blob/main/05%20BinarySearchTree.js)
  - [Hash Table](https://github.com/eerFun/DS-in-JS/blob/main/06%20HashTable.js)
+ - [Graph](https://github.com/eerFun/DS-in-JS/blob/main/07%20Graph.js)
 
 ## Resources
  - https://www.bigocheatsheet.com/
