@@ -12,7 +12,7 @@ class LinkedList {
     this.tail = this.head;
     this.length = 1;
   }
-  
+
   // O(1)
   push(value) {
     const newNode = new Node(value);
@@ -84,7 +84,7 @@ class LinkedList {
     }
     return node;
   }
-  
+
   // O(n)
   set(index, value) {
     const node = this.get(index);
@@ -100,7 +100,7 @@ class LinkedList {
   insert(index, value) {
     if (typeof index !== 'number' || !Number.isInteger(index)) throw new Error(`Invalid input: The 'index' should be an Integer number`);
     if (index < 0 || index > this.length) return false;
-    
+
     if (index === 0) {
       this.unshift(value);
       return true;
@@ -108,7 +108,7 @@ class LinkedList {
       this.push(value);
       return true;
     }
-    
+
     const newNode = new Node(value);
     const preInsertNode = this.get(index - 1);
     newNode.next = preInsertNode.next;
@@ -116,15 +116,15 @@ class LinkedList {
     this.length++;
     return true;
   }
-  
+
   // O(n)
   remove(index) {
     if (typeof index !== 'number' || !Number.isInteger(index)) throw new Error(`Invalid input: The 'index' should be an Integer number`);
     if (index < 0 || index >= this.length) return undefined;
-    
+
     if (index === 0) return this.shift();
     if (index === this.length - 1) return this.pop();
-    
+
     const preRemoveNode = this.get(index - 1);
     const removeNode = preRemoveNode.next;
     preRemoveNode.next = removeNode.next;
