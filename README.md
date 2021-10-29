@@ -9,6 +9,11 @@ My Data Structure Notes in JS
  - [Binary Search Tree](https://github.com/eerFun/DS-in-JS/blob/main/05%20BinarySearchTree.js)
  - [Hash Table](https://github.com/eerFun/DS-in-JS/blob/main/06%20HashTable.js)
  - [Graph](https://github.com/eerFun/DS-in-JS/blob/main/07%20Graph.js)
+ - [Sorting Algorithms](https://github.com/eerFun/DS-in-JS/tree/main/Sorting%20Algorithms)
+   - [Bubble Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/01%20BubbleSort.js)
+   - [Selection Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/02%20SelectionSort.js)
+   - [Insertion Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/03%20InsertionSort.js)
+   - [Merge Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/04%20MergeSort.js)
 
 ## Resources
  - https://www.bigocheatsheet.com/
