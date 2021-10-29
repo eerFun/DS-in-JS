@@ -14,6 +14,7 @@ My Data Structure Notes in JS
    - [Selection Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/02%20SelectionSort.js)
    - [Insertion Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/03%20InsertionSort.js)
    - [Merge Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/04%20MergeSort.js)
+   - [Quick Sort](https://github.com/eerFun/DS-in-JS/blob/main/Sorting%20Algorithms/05%20QuickSort.js)
 
 ## Resources
  - https://www.bigocheatsheet.com/
