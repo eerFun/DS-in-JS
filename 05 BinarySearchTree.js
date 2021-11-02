@@ -53,7 +53,67 @@ class BST {
     }
     return false;
   }
+
+  //----------------------------------------------------
+  //            TREE TRAVERSAL ALGORITHMS
+  //----------------------------------------------------
+  // Breadth First Search - [47, 21, 76, 18, 27, 52, 82]
+  BFS() {
+    let currentNode = this.root;
+    const results = [];
+    const queue = [];
+    queue.push(currentNode);
+
+    while (queue.length) {
+      currentNode = queue.shift();
+      results.push(currentNode.value);
+      if (currentNode.left) queue.push(currentNode.left);
+      if (currentNode.right) queue.push(currentNode.right);
+    }
+    return results;
+  }
+
+  // Depth First Search - Pre Order [47, 21, 18, 27, 76, 52, 82]
+  DFSPreOrder() {
+    const results = [];
+    function traverse(currentNode) {
+      results.push(currentNode.value);
+      if (currentNode.left) traverse(currentNode.left);
+      if (currentNode.right) traverse(currentNode.right);
+    }
+    traverse(this.root);
+    return results;
+  }
+
+  // Depth First Search - Post Order [18, 27, 21, 52, 82, 76, 47]
+  DFSPostOrder() {
+    const results = [];
+    function traverse(currentNode) {
+      if (currentNode.left) traverse(currentNode.left);
+      if (currentNode.right) traverse(currentNode.right);
+      results.push(currentNode.value);
+    }
+    traverse(this.root);
+    return results;
+  }
+
+  // Depth First Search - In  Order [18, 21, 27, 47, 52, 76, 82]
+  DFSInOrder() {
+    const results = [];
+    function traverse(currentNode) {
+      if (currentNode.left) traverse(currentNode.left);
+      results.push(currentNode.value);
+      if (currentNode.right) traverse(currentNode.right);
+    }
+    traverse(this.root);
+    return results;
+  }
 }
+
+//            47
+//      21          76
+//
+//   18    27    52    82
 
 const myTree = new BST();
 myTree.insert(47);
